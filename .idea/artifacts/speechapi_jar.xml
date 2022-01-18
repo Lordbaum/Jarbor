@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="speechapi:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/speechapi_jar</output-path>
+    <root id="archive" name="speechapi.jar">
+      <element id="module-output" name="speechapi" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/WSJ_8gau_13dCep_16k_40mel_130Hz_6800Hz.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/sphinx4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/jsapi.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/TIDIGITS_8gau_13dCep_16k_40mel_130Hz_6800Hz.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

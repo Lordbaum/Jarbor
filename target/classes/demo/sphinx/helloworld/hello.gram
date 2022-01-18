@@ -1,0 +1,14 @@
+#JSGF V1.0;
+
+/**
+ * JSGF Grammar for Hello World example
+ */
+
+grammar hello;
+
+public <play> = (discord) (play) (love|war|start|party|sex|one|two|three|four|five|six|seven|eight|nine|ten|zero|green|broccoli|between|squid|fly|power);
+public <multiplay> = (discord) (play) (love|war|start|party|sex|one|two|three|four|five|six|seven|eight|nine|ten|zero|green|broccoli|between|squid|fly|power) (love|war|start|party|sex|one|two|three|four|five|six|seven|eight|nine|ten|zero|green|broccoli|between|squid|fly|power);
+public <dcaction> = (discord) (action) (skip|clear);
+public <system> = (system) (start|stop|read);
+public <execute> = (system) (execute) (rainbow|war|discord|cube|test|battle|portal|ship|dino|life|field);
+public <moderation> = (discord) (action) (kill|deaf|mute|move) (one|two|three|four|five|six|seven|eight|nine|ten|zero);

@@ -1,0 +1,1 @@
+java -jar %~dp0jarbor-client-1.1-final_Version.jar %*
